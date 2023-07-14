@@ -1,0 +1,36 @@
+.home {
+  .home-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    h3 {
+      color: #212121;
+      font-size: 21px;
+      font-weight: 800;
+      line-height: 72%;
+    }
+  }
+  .home-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 411px;
+    button {
+      padding: 15px 24px 14px 24px;
+      border-radius: 6px;
+      background: #1bc58d;
+      color: #fff;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 800;
+      line-height: normal;
+      border: 1px solid #1bc58d;
+    }
+    button:hover {
+      background-color: #e5e5e5;
+      color: black;
+      border: 1px solid #e5e5e5;
+    }
+  }
+}
